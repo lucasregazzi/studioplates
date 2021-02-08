@@ -376,3 +376,11 @@ footer p {
     line-height: 3.0rem;
   }
 }
+
+@media (max-height: 620px) {
+  footer {
+    position: relative;
+    bottom: auto;
+    left: auto;
+  }
+}
