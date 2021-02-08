@@ -3,6 +3,7 @@ body {
 }
 
 main {
+  padding: 50px;
   max-width: 1200px;
   font-family: 'lunchtype22regular', sans-serif;
 }
@@ -49,9 +50,8 @@ h1 {
   padding: 20px;
 }
 
-
 ul {
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
   margin-left: 20px;
 }
 
@@ -61,6 +61,10 @@ li {
 
 .full {
   display: none;
+}
+
+p {
+  display: inline-block;
 }
 
 p:hover .full {
@@ -73,4 +77,40 @@ p:hover .empty {
 
 footer img {
   width: 200px;
+}
+
+.one {
+  animation: fadeUp 1s forwards;
+}
+
+.two {
+  animation: fadeUp 2s forwards;
+}
+
+.three {
+  animation: fadeUp 3s forwards;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    color: seagreen;
+    transform: rotate(1deg);
+    margin-bottom: -20px;
+  }
+  100% {
+    color: #000;
+    transform: rotate(0deg);
+    opacity: 1;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1,
+  h2,
+  p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
 }
