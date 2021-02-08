@@ -1,0 +1,76 @@
+body {
+  background-color: #eee;
+}
+
+main {
+  max-width: 1200px;
+  font-family: 'Inter', sans-serif;
+}
+
+::selection {
+  background-color: #ccc;
+}
+
+a {
+  display: inline-block;
+  color: seagreen;
+  text-decoration: none;
+}
+
+a:active {
+  transform-origin: center center;
+  transform: rotate(180deg);
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4  {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+p {
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  padding: 20px;
+}
+
+
+ul {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+li {
+  margin-left: 5px;
+}
+
+.full {
+  display: none;
+}
+
+p:hover .full {
+  display: inline-block;
+}
+
+p:hover .empty {
+  display: none;
+}
+
+footer img {
+  width: 200px;
+}
