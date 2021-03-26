@@ -238,7 +238,7 @@ html {
 }
 
 body {
-  background-color: #eee;
+  background-color: #F9F8F5;
   font-family: 'lao_sangam_mnregular', sans-serif;
 }
 
@@ -248,11 +248,11 @@ main {
 }
 
 ::-moz-selection {
-  background-color: #ccc;
+  background-color: #F9F8F5;
 }
 
 ::selection {
-  background-color: #ccc;
+  background-color: #F9F8F5;
 }
 
 a {
